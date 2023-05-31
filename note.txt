@@ -1,0 +1,81 @@
+bài 1 tính tiền lương nhân viên 
+
+input:
+nhân viên nhập vào số ngày làm 
+lương 1 ngày 100,000
+
+output:
+hiển thị số tiền lương nhân viên nhận được sau khi nhập số ngày làm 
+
+processing:
+tạo form nhập dữ liệu bên html
+dom tới nút button tạo sự kiện onclick 
+tạo biến dom tới name để lấy value
+tạo biến dom tới ngày công và lấy value nhân với 1 để đổi kiểu dữ liệu là number
+tạo const tien công ngày 
+tạo phép tính ngày công nhân vơi tiền công
+dom tới kết quả và lấy innerHTML và trả về kết quả phép tính cho người dùng.
+tránh sai số vì một tháng dài nhất có 31 ngày, ta sẽ dùng hàm if để giới hạn số ngày và hiển thị cho người dùng biết.
+
+
+bài 2 Tính giá trị trung bình
+input:
+nhập vào 5 số thưc
+
+output:
+tính giá trị trung bình của 5 số vừa nhập bằng công thức cộng 5 số lại lấy tổng của nó chia cho 5
+
+processing:
+tạo form nhập dữ liệu bên html
+dom tới nút button tạo sự kiện onclick sau đó
+dom tới các số lấy value nhân cho 1 để đổi kiểu dữ liệu
+tạo phép toán để lấy giá trị trung bình bằng công thức cộng 5 số lại lấy tổng của nó chia cho 5
+dom tới div hiển thị lấy innerHTML và trả kết quả cho người dùng
+
+bài 3 Quy đổi tiền 
+input:
+giá USD hiện tại 23,500đ/1USD 
+Người dùng nhập vào số tiền muốn quy đổi
+
+output: 
+Quy đổi mệnh giá tiền từ USD sang VNĐ
+
+processing:
+tạo form nhập dữ liệu bên html
+dom tới nút button tạo sự kiện onclick 
+dom tới thẻ input để lấy value và chuyển đổi kiểu dữ liệu bằng cách nhân 1 
+tạo giá trị tiền cố định bằng const để tránh bị thay đổi phía dưới.
+dom tới thẻ div hiển thị lấy và thay đổi bằng innerHTML.
+
+bài 4 TÍNH DIỆN TÍCH, CHU VI HÌNH CHỮ NHẬT
+
+input: nhập vào chiều dài và chiều rộng
+
+output:
+tính toán chu vi và điện tích dựa trên số liệu người dùng nhập vào
+
+processing:
+tạo form nhập dữ liệu bên html
+dom tới nut button tạo sự kiện onclick
+dom tới value của input để chuyển kiểu dữ liệu
+công thức tính diện tích = chiều dài  nhân chiều rộng
+chu vi - tổng chiều dài cộng chiều rộng và nhân với 2
+dom tơi thẻ hiển thị sau đó thay đổi innerHTML
+
+bài 5 tính tổng 2 ký số
+input:
+nhập vào 2 số bất kỳ
+
+output: 
+tách 2 số đó và cộng lại với nhau cho ra kết quả
+
+processing:
+tạo form nhận dữ liệu người dùng nhập vào và nút tạo sự kiện
+dom đến nút button tạo sự kiện onclick 
+chuyển kiểu dữ liệu cho input 
+sử dụng Math.floor để tròn số tách số hàng chục 
+hàng đơn vị thì lấy số nhập vào chia lấy dư cho 10 
+tổng kí số sẽ bằng hàng chục cộng hàng đơn vị 
+tránh trường hợp sai số sẽ giới hạn bằng hàm if lớn nhất là 99 để đưa trả về số liệu đúng cho người dùng, còn nếu sai sẽ hiện dòng thông báo lỗi
+
+
